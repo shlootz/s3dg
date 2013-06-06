@@ -90,6 +90,7 @@ package com.sounds
 		private var hitSoundIndex:uint = 0;
 		private var hitSounds:Vector.<Sound> = new Vector.<Sound>
 		private var turbine:Sound;
+		
 		private var channel:SoundChannel = new SoundChannel();
 		private var shootChannel :SoundChannel = new SoundChannel();
 		private var effectsChannel :SoundChannel = new SoundChannel();
